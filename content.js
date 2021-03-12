@@ -487,122 +487,154 @@ const Turkey = {
   video: "https://www.youtube.com/watch?v=_FA5_erQTCw",
   alfa3Code: 'TUR',
 }
-const Australia = {
+const Russia = {
   name: {
-    en: "",
-    ru: "",
-    pl: "",
+    en: "Russia",
+    ru: "Россия",
+    pl: "Rosja",
   },
   image: {
     alt: {
-      en: '',
-      ru: '',
-      pl: '',
+      en: 'Moskow, Russia',
+      ru: 'Москва, Россия',
+      pl: 'Moskwa, Rosja',
     },
-    thumbnail: '',
-    mainImage: '',
+    thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Moscow_July_2011-49.jpg/320px-Moscow_July_2011-49.jpg',
+    mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Moscow_July_2011-49.jpg/1280px-Moscow_July_2011-49.jpg',
     },
   galleryImages: [
     {
       alt: {
-        en:'',
-        ru:'',
-        pl: '',
+        en:'Red Square',
+        ru:'Красная площадь',
+        pl: 'Plac Czerwony w Moskwie',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%E2%84%965.JPG/320px-%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%E2%84%965.JPG',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%E2%84%965.JPG/1280px-%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%E2%84%965.JPG',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `Red Square (Russian: Красная площадь, tr. Krasnaya ploshchaď, IPA: [ˈkrasnəjə ˈploɕːətʲ]) is one of the oldest and largest squares in Moscow, the capital of Russia. Owing to its historical significance and the adjacent historical buildings, it is regarded as one of the most famous squares in Europe and the world. It is located in Moscow's historic centre, in the eastern walls of the Kremlin. It is the city landmark of Moscow, with iconic buildings such as Saint Basil's Cathedral, Lenin's Mausoleum and the GUM. In addition, it has been a UNESCO World Heritage Site since 1990.`,
+        ru: `Кра́сная пло́щадь — главная площадь Москвы, расположена между Московским Кремлём (к западу) и Китай-городом (на восток). Выходит к берегу Москвы-реки через пологий Васильевский спуск. Площадь тянется вдоль северо-восточной стены Кремля, от Кремлёвского проезда и проезда Воскресенские Ворота до Васильевского спуска, выходящего к Кремлёвской набережной. На восток от Красной площади отходят Никольская улица, Ильинка и Варварка. Вдоль западной стороны площади расположен Московский Кремль, вдоль восточной — Верхние торговые ряды и Средние торговые ряды. Входит в единый ансамбль с Московским Кремлём, однако исторически является частью Китай-города.
+        На Красной площади расположены Лобное место, памятник Минину и Пожарскому, Мавзолей Владимира Ленина, некрополь у Кремлёвской стены. В северной части площади находятся Исторический музей и Казанский собор, в южной — Покровский собор. Архитектурный ансамбль находится под охраной ЮНЕСКО как памятник Всемирного наследия.`,
+        pl: `Plac Czerwony (ros. Красная площадь) – plac w Moskwie, położony w centrum miasta opodal Kremla (oficjalnej siedziby prezydenta Rosji). Ma 330 m długości i 70 m szerokości. W 1991, jako pierwszy obiekt w Rosji, plac Czerwony został wpisany na listę Światowego Dziedzictwa Kultury UNESCO.`,
       },
     },
     {
       alt: {
-        en:'',
-        ru: '',
-        pl: '',
+        en:'Petergof',
+        ru: 'Петергоф',
+        pl: 'Peterhof',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Grand_Cascade_of_Peterhof_01.jpg/320px-Grand_Cascade_of_Peterhof_01.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Grand_Cascade_of_Peterhof_01.jpg/1280px-Grand_Cascade_of_Peterhof_01.jpg',
       description: {
-        en: "",
-        ru: '',
-        pl: '',
+        en: `Petergof (Russian: Петерго́ф) or Peterhof (an emulation of early modern Dutch "Piterhof", meaning "Peter's Court"[5]), known as Petrodvorets (Петродворец) from 1944 to 1997, is a municipal town in Petrodvortsovy District of the federal city of St. Petersburg, located on the southern shore of the Gulf of Finland.
+        The town hosts one of two campuses of Saint Petersburg State University and the Petrodvorets Watch Factory, one of the leading Russian watch manufactures. A series of palaces and gardens, laid out on the orders of Peter the Great and sometimes called the "Russian Versailles," is also situated there. The palace-ensemble along with the city center is recognized as a UNESCO World Heritage Site`,
+        ru: 'Дворцово-парковый ансамбль Петергоф — царство фонтанов, феерия играющей воды, дворцы, в которых оживает эпоха Петра Великого, блистательные интерьеры времен императрицы Елизаветы и царя Николая I.',
+        pl: `Peterhof (ros. Петергоф), w latach 1944–1997 Pietrodworiec (ros. Петродворец) – miasto w północnej Rosji, w rejonie pietrodworeckim Petersburga, nad Zatoką Fińską.
+        W mieście znajduje się dawny carski zespół pałacowo-parkowy i stacja kolejowa Nowy Peterhof.`,
       },
     },
     {
       alt: {
-        en: '',
-        ru:'',
-        pl: '',
+        en: 'Kizhi (museum)',
+        ru:'Кижи (музей-заповедник)',
+        pl: 'Kizhi',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RIAN_archive_89956_Kizhi_museum_preserve.jpg/320px-RIAN_archive_89956_Kizhi_museum_preserve.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/7/73/RIAN_archive_89956_Kizhi_museum_preserve.jpg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `Kizhi is a state historical, architectural and ethnographic museum-reserve located in the Republic of Karelia of the Russian Federation.
+        The name of the museum is given to the island of Kizhi, where the main part of the museum's exposition is located. The objects of the museum are also located in Petrozavodsk and in a number of settlements of the Medvezhyegorsky district.
+        All churches located on the territory of the Kizhi Museum-Reserve are included in the Spaso-Kizhi Patriarchal Metochion.`,
+        ru: `«Кижи» — государственный историко-архитектурный и этнографический музей-заповедник, расположенный в Республике Карелия Российской Федерации.
+        Название музея дано по острову Кижи, где расположена основная часть экспозиции музея. Объекты музея также расположены в Петрозаводске и в ряде населённых пунктов Медвежьегорского района.
+        Все храмы, находящиеся на территории музея-заповедника «Кижи», включены в состав Спасо-Кижского Патриаршего подворья.`,
+        pl: `"Kizhi" - Państwowe Muzeum Historyczno-architektoniczne i etnograficzne-Rezerwat położony w Republice Karelii Federacji Rosyjskiej.
+        Nazwa muzeum pochodzi od Wyspy Kizhi, gdzie znajduje się główna część ekspozycji Muzeum. Obiekty muzeum znajdują się również w Pietrozawodsku i w wielu miejscowościach w rejonie Niedźwiedziogórskim.
+        Wszystkie świątynie znajdujące się na terenie muzeum-rezerwatu "Kizhi" są włączone w skład Zbawiciela Patriarszego Kijowa.`,
       },
     },
     {
       alt: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: 'Mountain Park "Ruskeala" ',
+        ru: 'Рускеала (горный парк)',
+        pl: 'Park górski "Ruskeala"',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mountain_park_Ruskeala.jpg/320px-Mountain_park_Ruskeala.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mountain_park_Ruskeala.jpg/1280px-Mountain_park_Ruskeala.jpg',
       description: {
-        en: "",
-        ru: '',
-        pl: '',
+        en: `Mountain Park "Ruskeala" (fin. Ruskeala — "Brown, Brown") is a tourist complex located in the Sortavalsky district of the Republic of Karelia. The basis of the complex is a cultural heritage site, a historical monument-a former marble quarry filled with groundwater.`,
+        ru: 'Го́рный парк «Рускеа́ла» (фин. Ruskeala — «Коричневая, Бурая») — туристический комплекс, расположенный в Сортавальском районе Республики Карелия. Основой комплекса является объект культурного наследия, памятник истории — заполненный грунтовыми водами бывший мраморный карьер.',
+        pl: `Park górski "Ruskeala" (fin. Ruskeal - "Brązowy, Brązowy") - kompleks turystyczny położony w Sorbawalskim rejonie Republiki Karelii. Podstawą kompleksu jest obiekt dziedzictwa kulturowego, zabytkiem jest dawny kamieniołom marmuru wypełniony wodami gruntowymi.`,
       },
     },
     {
       alt: {
-        en: '',
-        ru:'',
-        pl: '',
+        en: 'Pskov-Caves Monastery',
+        ru:'Псково-Печерский монастырь',
+        pl: `Monaster Pskowsko-Pieczerski`,
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/PechoryMonasteryView.JPG/320px-PechoryMonasteryView.JPG',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/PechoryMonasteryView.JPG/1280px-PechoryMonasteryView.JPG',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: 'Pskov-Pechory Monastery or The Pskovo-Pechersky Dormition Monastery or Pskovo-Pechersky Monastery (Russian: Пско́во-Печ́ерский Успе́нский монасты́рь, Estonian: Petseri klooster) is a Russian Orthodox male monastery, located in Pechory, Pskov Oblast in Russia, just a few kilometers from the Estonian border. Pskov-Caves Monastery is one of the few Russian monasteries that have never been closed at any point in their existence, including during World War II and the Soviet regime. The monastery has been an important spiritual centre for the Seto people.',
+        ru: `Свя́то-Успе́нский Пско́во-Пече́рский монасты́рь[1] — один из самых крупных и известных в России мужских монастырей с многовековой историей. Название монастыря связано с находящимися в нём пещерами, называемыми «Богом зданными» (то есть созданными Богом). В 1473 году здесь была освящена пещерная церковь Успения Божией Матери, выкопанная преподобным Ионой в холме из песчаника. Этот год считается годом основания монастыря. Холм, в котором находятся Успенская церковь и Богом зданные пещеры, называется Святой горой.
+        Монастырь ни разу за всю свою историю не закрывался. В межвоенный период (с февраля 1920 до января 1945 года) находился в пределах независимой Эстонии, благодаря чему не был закрыт (все монастыри на территории СССР были закрыты к концу 1920-х годов).`,
+        pl: `Monaster Pskowsko-Pieczerski – męski prawosławny klasztor w Pieczorach, w jurysdykcji eparchii pskowskiej Rosyjskiego Kościoła Prawosławnego.
+        Jeden z najbardziej znanych i najważniejszych rosyjskich klasztorów prawosławnych[1]. Założony według różnych wersji na przełomie wieku XIV i XV lub w II połowie XV stulecia, rozwinął się w okresie sprawowania godności przełożonego przez igumena Korneliusza (1529–1573). Położony w pobliżu zachodniej granicy państwa moskiewskiego, do 1721 odgrywał znaczącą rolę obronną.
+        Zniszczony przez bolszewików w 1918 monaster znalazł się po wojnie o niepodległość Estonii w granicach tego państwa, co uchroniło go przed likwidacją i umożliwiło odbudowę. W latach 1932–1940 mieścił seminarium duchowne Estońskiego Apostolskiego Kościoła Prawosławnego. Pozostał czynny po II wojnie światowej.`,
       },
     },
     {
       alt: {
-        en: '',
-        ru:'',
-        pl: '',
+        en: 'Lake Baikal',
+        ru:'Байкал',
+        pl: 'Bajkał',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Baikal_ice_on_sunset_4.jpg/320px-Baikal_ice_on_sunset_4.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Baikal_ice_on_sunset_4.jpg/1280px-Baikal_ice_on_sunset_4.jpg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `Lake Baikal is a rift lake located in southern Siberia, Russia, between Irkutsk Oblast to the northwest and the Buryat Republic to the southeast.
+        Lake Baikal is the largest freshwater lake by volume in the world, containing 22 to 23% of the world's fresh surface water.[5][6] With 23,615.39 km3 (5,670 cu mi) of fresh water, it contains more water than all of the North American Great Lakes combined. With a maximum depth of 1,642 m (5,387 ft), Baikal is the world's deepest lake. It is among the world's clearest lakes and is the world's oldest lake, at 25–30 million years. It is the seventh-largest lake in the world by surface area. The region to the east of Lake Baikal is referred to as Transbaikalia or as the Transbaikal,[16] and the loosely defined region around the lake itself is sometimes known as Baikalia. UNESCO declared Lake Baikal a World Heritage Site in 1996`,
+        ru: `Байка́л (бур. Байгал далай) — озеро тектонического происхождения в южной части Восточной Сибири, самое глубокое озеро на планете, крупнейший природный резервуар пресной воды и самое большое по площади пресноводное озеро на континенте.
+        Озеро и прибрежные территории отличаются уникальным разнообразием флоры и фауны, бо́льшая часть видов животных эндемична.`,
+        pl: `Bajkał (ros. Байкал) – jezioro tektoniczne w azjatyckiej części Rosji, w Buriacji i obwodzie irkuckim. Jest najstarszym i najgłębszym jeziorem na świecie, a pod względem powierzchni drugim jeziorem w Azji i siódmym na świecie.`,
       },
     },
   ],
   description: {
-    en: '',
-    ru: '',
-    pl: '',
+    en: `The Russian Federation is the largest country in the world, occupying 1/8 of the land area and located in the north-east of Eurasia. Russia is a country with a long history, rich cultural heritage and generous nature. In Russia, you can find almost everything that a traveler meets individually in a particular country — sunny beaches of the subtropics and snowy mountain peaks, endless steppes and deep forests, stormy rivers and warm seas. Russia occupies an area of 17 million square kilometers, which exceeds the size of Australia or Antarctica. Russia is almost 2 times larger than Canada, the United States and China.
+    The country's neighbors are China and North Korea in the southeast, Azerbaijan, Georgia, Mongolia and Kazakhstan in the south, Belarus, Latvia, Norway, Estonia and Finland in the west. The Russian enclave, the Kaliningrad Region, borders Lithuania and Poland.
+    In the east, the country is washed by the Sea of Okhotsk, the Sea of Japan, the Berengov Sea and the Berengov Strait; in the north — the Laptev Sea, the Barents Sea, the Chukchi Sea, the Kara Sea and the East Siberian Sea; in the south-the Sea of Azov and the Black Sea; in the west — the Baltic Sea and the Gulf of Finland.
+    The largest Russian rivers are the Ob, Volga, Yenisei, Lena and Amur. The largest lakes of the country: Lake Baikal, Lake Ladoga, Lake Onega and the Caspian Sea.
+    The European and Asian parts of the country are separated by the Ural Mountains, the highest of which is Mount Narodnaya (1895 meters). From the Ural Ridge to the Primorsky Territory, Siberia is located, divided by the Yenisei and Lena rivers into three natural areas. In the south of the Asian part, the Altai Mountains rise, the highest point of which is Mount Belukha (4056 meters). To the east of the Altai Mountains are the Sayans, the Baikal Region and the Trans-Baikal Region. Further, in the direction of the Pacific Ocean, the mountain system of the Far East begins, the highest point of which and in the whole Asian part — the Klyuchevskaya Sopka volcano (4750 meters) is located on the Kamchatka Peninsula. In the south of Russia, the mountains of the North Caucasus rise, crowned by Elbrus (5642 meters), the highest point not only in Russia, but also in Europe.
+    The territory of the country is divided into 4 natural zones and 11 natural zones. The Far North is a zone of Arctic deserts. To the south, in the Subarctic, tundra and forest-tundra are spread out. The temperate zone is more than half occupied by the taiga. On the rest of it there are zones of mixed forests, forest-steppe, steppe, semi-desert and desert. On the Black Sea coast of the Caucasus, there is a subtropical zone that makes up only 0.05% of the country's area.
+    Russia has created more than 100 nature reserves, 40 natural and 35 national parks.`,
+    ru: `Российская Федерация — крупнейшее в мире государство, занимающее 1/8 часть суши и расположенное на северо-востоке Евразии. Россия — страна с многовековой историей, богатым культурным наследием и щедрой природой. В России можно найти почти всё то, что встречает путешественник по отдельности в той или иной стране — солнечные пляжи субтропиков и снежные горные вершины, бескрайние степи и глухие леса, бурные реки и тёплые моря. Россия занимает территорию площадью в 17 миллионов квадратных километров, что превышает размеры Австралии или Антарктиды. Россия почти в 2 раза больше Канады, США и Китая.
+    Соседи страны: Китай и Северная Корея на юго-востоке, Азербайджан, Грузия, Монголия и Казахстан на юге, Беларусь, Латвия, Норвегия, Эстония и Финляндия на западе. Российский анклав, Калининградская область, граничит с Литвой и Польшей.
+    На востоке страна омывается Охотским, Японским, Беренговым морями и Беренговым проливом; на севере — морем Лаптевых, Баренцевым, Чукотским, Карским и Восточно-Сибирским морями; на юге — Азовским и Чёрным морями; на западе — Балтийским морем и Финским заливом. 
+    Крупнейшие российские реки: Обь, Волга, Енисей, Лена и Амур. Самые большие озёра страны: Байкал, Ладожское, Онежское и Каспийское море.
+    Европейская и азиатская части страны разделены Уральскими горами, самая высокая из которых — гора Народная (1895 метров). От Уральского хребта и до Приморского края расположена Сибирь, разделённая реками Енисей и Лена на три природные области. На юге азиатской части поднимаются Алтайские горы, высочайшая точка которых — гора Белуха (4056 метров). На востоке от Алтайских гор расположены Саяны, Прибайкалье и Забайкалье. Далее, в сторону Тихого океана, начинается горная система Дальнего Востока, наивысшая точка которой и в целом азиатской части — вулкан Ключевская Сопка (4750 метров) находится на полуострове Камчатка. На юге России возвышаются горы Северного Кавказа, венчаемые Эльбрусом (5642 метра), самой высокой точкой не только России, но и Европы.
+    Территория страны делится на 4 природных пояса и 11 природных зон. Дальний север — зона арктических пустынь. Южнее, в Субарктике, раскинулись тундра и лесотундра. Умеренный пояс больше чем наполовину занят тайгой. На остальной его части находятся зоны смешанных лесов, лесостепи, степи, полупустыни и пустыни. На Черноморском побережье Кавказа расположена субтропическая зона, составляющая всего 0,05% от площади страны.
+    В России создано более 100 заповедников, 40 природных и 35 национальных парков.`,
+    pl: `Federacja Rosyjska jest największym państwem na świecie, zajmującym 1/8 części lądu i położonym w północno-wschodniej Eurazji. Rosja to kraj o wielowiekowej historii, bogatym dziedzictwie kulturowym i hojnej naturze. W Rosji można znaleźć prawie wszystko, co podróżnik spotyka osobno w danym kraju — słoneczne plaże subtropików i ośnieżone szczyty górskie, rozległe stepy i głębokie lasy, burzliwe rzeki i ciepłe Morza. Rosja zajmuje obszar o powierzchni 17 milionów kilometrów kwadratowych, przekraczając wielkość Australii lub Antarktydy. Rosja jest prawie 2 razy większa niż Kanada, USA i Chiny.
+    Sąsiedzi kraju: Chiny i Korea Północna na południowym wschodzie, Azerbejdżan, Gruzja, Mongolia I Kazachstan na południu, Białoruś, Łotwa, Norwegia, Estonia i Finlandia na zachodzie. Rosyjska enklawa, Obwód Kaliningradzki, graniczy z Litwa i Polską.
+    Na wschodzie kraj jest myty przez Morze Ochockie, Japońskie, morze Berengova i cieśninę Berengova; na północy — Morze Łaptiewów, Morze Barentsa, Morze Czukockie, morze karskie i Morze Wschodniosyberyjskie; na południu-Morze Azowskie i Morze Czarne; na zachodzie — Morze Bałtyckie i Zatoka Fińska.
+    Największe rosyjskie rzeki: Ob, Wołga, Jenisej, Lena i Amur. Największe jeziora w kraju: Bajkał, Ładoga, Onega i Morze Kaspijskie.
+    Europejska i azjatycka część kraju jest oddzielona górami Uralskimi, z których najwyższa to góra ludowa (1895 metrów). Od grzbietu Uralu do Kraju Nadmorskiego znajduje się Syberia, podzielona rzekami Jenisej i Lena na trzy naturalne regiony. W południowej części Azji wznoszą się góry Ałtaj, których najwyższym punktem jest Góra bieługa (4056 metrów). Na wschód od gór Ałtaju znajdują się Sayany, Pribaikale i Transbaikale. Dalej, w kierunku Oceanu Spokojnego, rozpoczyna się system górski Dalekiego Wschodu, którego najwyższy punkt i cała część azjatycka — Wulkan Klyuchevskaya Sopka (4750 metrów) znajduje się na półwyspie Kamczatka. Na południu Rosji wznoszą się góry Północnego Kaukazu, zwieńczone Elbrusem (5642 metry), najwyższym punktem nie tylko Rosji, ale także Europy.
+    Terytorium kraju dzieli się na 4 strefy przyrodnicze i 11 stref przyrodniczych. Dalekiej północy jest strefa pustyń arktycznych. Na południe, w Subarktyce, rozciągają się tundra i lasotundra. Umiarkowany pas jest ponad W połowie zajęty przez tajgę. Na pozostałej części znajdują się strefy lasów mieszanych, leśno-stepowe, stepy, półpustynie i pustynie. Na wybrzeżu Morza Czarnego na Kaukazie znajduje się strefa subtropikalna, która stanowi zaledwie 0,05% powierzchni kraju.
+    W Rosji utworzono ponad 100 rezerwatów przyrody, 40 parków przyrodniczych i 35 parków narodowych.`,
   },
-  currencyCode: '',
+  currencyCode: 'RUB',
   location: {
-    lat: '',
-    long: '',
+    lat: '55.7498',
+    long: '37.6179',
   },
-  timezone: '', // not sure
-  video: "",
-  alfa3Code: 'AUS',
+  timezone: 'Europe/Moscow',
+  video: "https://www.youtube.com/watch?v=WeoWk6X_bV4",
+  alfa3Code: 'RUS',
 }
-const Australia = {
+const Italia = {
   name: {
     en: "",
     ru: "",
@@ -713,11 +745,11 @@ const Australia = {
     lat: '',
     long: '',
   },
-  timezone: '', // not sure
+  timezone: 'Europe/Rome', // not sure
   video: "",
-  alfa3Code: 'AUS',
+  alfa3Code: '',
 }
-const Australia = {
+const Austria = {
   name: {
     en: "",
     ru: "",
@@ -828,8 +860,8 @@ const Australia = {
     lat: '',
     long: '',
   },
-  timezone: '', // not sure
+  timezone: 'Europe/Vienna', // not sure
   video: "",
-  alfa3Code: 'AUS',
+  alfa3Code: '',
 }
 
