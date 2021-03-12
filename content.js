@@ -109,7 +109,7 @@ const Kazakhstan = {
     lat: '51.1267',
     long: '71.4334',
   },
-  timezone: 'Asia/Almaty', // not sure
+  timezone: 'Asia/Almaty', 
   video: "https://www.youtube.com/embed/W0QhDmoiH7E",
   alfa3Code: 'KAZ',
 }
@@ -636,232 +636,263 @@ const Russia = {
 }
 const Italia = {
   name: {
-    en: "",
-    ru: "",
-    pl: "",
+    en: "Italia",
+    ru: "Италия",
+    pl: "Włochy",
   },
   image: {
     alt: {
-      en: '',
-      ru: '',
-      pl: '',
+      en: 'Rome, Italia',
+      ru: 'Рим, Италия',
+      pl: 'Rzym, Włochy',
     },
-    thumbnail: '',
-    mainImage: '',
+    thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Piazza_Venezia_-_Il_Vittoriano.jpg/320px-Piazza_Venezia_-_Il_Vittoriano.jpg',
+    mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Piazza_Venezia_-_Il_Vittoriano.jpg/1280px-Piazza_Venezia_-_Il_Vittoriano.jpg',
     },
   galleryImages: [
     {
       alt: {
-        en:'',
-        ru:'',
-        pl: '',
+        en:'The Colosseum',
+        ru:'Колизей',
+        pl: 'Koloseum',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/320px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1280px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `The Colosseum, is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81). Further modifications were made during the reign of Domitian (r. 81–96). The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre by later classicists and archaeologists for its association with their family name (Flavius).`,
+        ru: `Колизе́й (лат. Сolosseum), или амфитеатр Флавиев (лат. Amphitheatrum Flavium) — амфитеатр, памятник архитектуры Древнего Рима, наиболее известное и одно из самых грандиозных сооружений Древнего мира, сохранившихся до нашего времени. Находится в Риме, в низине между Эсквилинским, Палатинским и Целиевым холмами.`,
+        pl: 'Koloseum (łac. Colosseum, wł. Colosseo), właściwie amfiteatr Flawiuszów[1] (łac. Amphitheatrum Flavium) – amfiteatr w Rzymie, wzniesiony w latach 70-72 do 80 n.e. przez Wespazjana i Tytusa – cesarzy z dynastii Flawiuszów.',
       },
     },
     {
       alt: {
-        en:'',
-        ru: '',
-        pl: '',
+        en:'Santa Maria della Salute',
+        ru: 'Собор Санта-Мария делла Салюте',
+        pl: 'Bazylika Santa Maria della Salute',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/0_Venise%2C_Punta_della_Dogana_et_basilique_Santa_Maria_della_Salute_%282%29.JPG/320px-0_Venise%2C_Punta_della_Dogana_et_basilique_Santa_Maria_della_Salute_%282%29.JPG',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/0_Venise%2C_Punta_della_Dogana_et_basilique_Santa_Maria_della_Salute_%282%29.JPG/1280px-0_Venise%2C_Punta_della_Dogana_et_basilique_Santa_Maria_della_Salute_%282%29.JPG',
       description: {
-        en: "",
-        ru: '',
-        pl: '',
+        en: `Santa Maria della Salute (English: Saint Mary of Health), commonly known simply as the Salute, is a Roman Catholic church and minor basilica located at Punta della Dogana in the Dorsoduro sestiere of the city of Venice, Italy.
+        It stands on the narrow finger of Punta della Dogana, between the Grand Canal and the Giudecca Canal, at the Bacino di San Marco, making the church visible when entering the Piazza San Marco from the water. The Salute is part of the parish of the Gesuati and is the most recent of the so-called plague churches.`,
+        ru: `Собор Санта-Мария делла Салюте (итал. Chiesa di Santa Maria della Salute — Церковь во имя Святой Марии Спасительницы) — соборная церковь (chiesa) в Венеции на Гранд-канале в районе Дорсодуро. Церковь часто неправильно называют базиликой, хотя её главная архитектурная особенность заключается в том, что она имеет не базиликальный план, а представляет собой редкий для Венеции образец центрического церковного здания.`,
+        pl: `Bazylika Santa Maria della Salute (także nazywana Chiesa della Salute lub krótko La Salute) – wenecka barokowa bazylika mniejsza.
+        Bazylika została zbudowana, zgodnie z dekretem senatu podpisanym przez dożę Nicolò Contarini z 22 października 1630 roku, jako wotum dziękczynne po zakończeniu epidemii dżumy, która pozbawiła życia ok. 1/3 mieszkańców miasta. Została usytuowana nad Kanałem Grande obok budynku morskiej komory celnej Dogana da Mar. Barokowa budowla została zaprojektowana na rzucie ośmioboku otoczonego arkadami i zwieńczona kopułą ustawioną na bębnie. Kościół otacza sześć kaplic.`,
       },
     },
     {
       alt: {
-        en: '',
-        ru:'',
-        pl: '',
+        en: 'Milan Cathedral',
+        ru:'Собор Рождества Девы Марии',
+        pl: 'Katedra w Mediolanie',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Milano%2C_Duomo%2C_2016-06_CN-04.jpg/312px-Milano%2C_Duomo%2C_2016-06_CN-04.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Milano%2C_Duomo%2C_2016-06_CN-04.jpg/1280px-Milano%2C_Duomo%2C_2016-06_CN-04.jpg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `Milan Cathedral is the cathedral church of Milan, Lombardy, Italy. Dedicated to the Nativity of St Mary (Santa Maria Nascente), it is the seat of the Archbishop of Milan, currently Archbishop Mario Delpini.
+        The cathedral took nearly six centuries to complete: construction began in 1386, and the final details were completed in 1965. It is the largest church in Italy—the larger St. Peter's Basilica is in the State of Vatican City, a sovereign nation—and the second largest in Europe and the fourth largest in the world.`,
+        ru: `Мила́нский собо́р (итал. Duomo di Milano), или Собор Рождества Девы Марии (итал. Cattedrale di Santa Maria Nascente), — кафедральный собор, расположенный в историческом центре Милана. Посвящён Рождеству Пресвятой Девы Марии.
+        Построен из белого мрамора в стиле пламенеющей готики. Строительство было начато в 1386 году, однако завершилось оно лишь в начале XIX века, когда по распоряжению Наполеона было закончено оформление фасада. Некоторые детали доделывались и позже, вплоть до 1965 года.
+        Это позднеготическое здание, которое содержит множество шпилей и скульптур, мраморных остроконечных башенок и колонн, соединённых большим количеством парящих опор.
+        Один из крупнейших по величине в Европе. Среди готических храмов по вместимости уступает только севильскому, а среди итальянских храмов — только собору Святого Петра в Ватикане. Одних только статуй в соборе насчитывается 3400.`,
+        pl: `Katedra Narodzin św. Marii w Mediolanie (wł. Duomo St. Maria Nascente di Milano, w dialekcie lombardzkim – Dom de Milan) – gotycka marmurowa katedra, jedna z najbardziej znanych budowli we Włoszech i w Europie. Należy do największych kościołów na świecie (długość – 157 m, szerokość – 93 m). Również witraże w chórze katedry, należą do największych na świecie.`,
       },
     },
     {
       alt: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: 'Mount Vesuvius',
+        ru: 'Везувий',
+        pl: 'Wezuwiusz',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Vesuvius_from_Pompeii_%28hires_version_2_scaled%29.png/320px-Vesuvius_from_Pompeii_%28hires_version_2_scaled%29.png',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Vesuvius_from_Pompeii_%28hires_version_2_scaled%29.png/1280px-Vesuvius_from_Pompeii_%28hires_version_2_scaled%29.png',
       description: {
-        en: "",
-        ru: '',
-        pl: '',
+        en: `Vesuvius - formidable, powerful, awe-inspiring, awe – inspiring, and at the same time awe-inspiring-is one of the most famous volcanoes on Earth. Its height is 1,281 m. Located in the south of the Apennine Peninsula, on the shore of the Gulf of Naples, Vesuvius, together with Etna on the island of Sicily and Stromboli on the Liparian Islands, is one of the three active volcanoes in Italy. At the same time, it is the only one on the continent, located in the mainland of the Old World. The rest of the fire-breathing mountains of Europe are located on the island territories.`,
+        ru: 'Везувий – грозный, мощный, навевающий страх, трепет и одновременно благоговейное уважение – относится к числу самых известных на Земле вулканов. Его высота составляет 1281 м. Расположенный на юге Апеннинского полуострова, на берегу Неаполитанского залива, Везувий, вместе с Этной на острове Сицилия и Стромболи на Липарских островах, является одним из трех действующих вулканов Италии. При этом он единственный на континенте, расположенный в материковой части Старого света. Остальные огнедышащие горы Европы находятся на островных территориях.',
+        pl: `Wezuwiusz - potężny, wywołujący strach, podziw, a jednocześnie pełen szacunku szacunek – należy do najbardziej znanych wulkanów na Ziemi. Jego wysokość wynosi 1281 m. położone na południu Półwyspu Apenińskiego, nad brzegiem Zatoki Neapolitańskiej, Wezuwiusz, wraz z Etna na Sycylii i Stromboli na Wyspach Liparskich, jest jednym z trzech czynnych wulkanów we Włoszech. Jednocześnie jest jedynym na kontynencie położonym w kontynentalnej części Starego Świata. Pozostałe ziejące ogniem góry Europy znajdują się na terenach wyspiarskich.`,
       },
     },
     {
       alt: {
-        en: '',
-        ru:'',
-        pl: '',
+        en: 'Leaning Tower of Pisa',
+        ru:'Пизанская башня',
+        pl: 'Krzywa Wieża w Pizie',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/The_Leaning_Tower_of_Pisa_SB.jpeg/157px-The_Leaning_Tower_of_Pisa_SB.jpeg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/The_Leaning_Tower_of_Pisa_SB.jpeg/672px-The_Leaning_Tower_of_Pisa_SB.jpeg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `The Leaning Tower of Pisais the campanile, or freestanding bell tower, of the cathedral of the Italian city of Pisa, known worldwide for its nearly four-degree lean, the result of an unstable foundation. The tower is situated behind the Pisa Cathedral and is the third-oldest structure in the city's Cathedral Square (Piazza del Duomo), after the cathedral and the Pisa Baptistry.`,
+        ru: `Пиза́нская башня (итал. Torre pendente di Pisa) — колокольная башня, часть ансамбля городского собора Санта-Мария-Ассунта (Пизанский собор) в городе Пиза, получившая всемирную известность благодаря непреднамеренному наклону.
+        Расположенная позади собора, она является третьей старейшей постройкой на Площади чудес Пизы после самого собора и баптистерия. Наклон башни возник в ходе её строительства, длившегося несколько десятилетий и в последующее время медленно увеличивался, пока не был стабилизирован (и частично скорректирован) благодаря усилиям по укреплению в конце XX и начале XXI столетий.`,
+        pl: `Krzywa Wieża w Pizie (wł. Torre pendente di Pisa) – jedna z najbardziej znanych budowli świata, odwiedzana rocznie przez około 10 milionów turystów; symbol miasta Pizy. W istocie jest dzwonnicą (kampanilą) katedralną i należy do kompleksu zabudowań w stylu romańskim na Campo dei Miracoli, wpisanych w 1987 roku na listę światowego dziedzictwa UNESCO.`,
       },
     },
     {
       alt: {
-        en: '',
-        ru:'',
-        pl: '',
+        en: 'Trevi Fountain',
+        ru:'Фонтан Треви',
+        pl: 'Fontanna di Trevi',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Panorama_of_Trevi_fountain_2015.jpg/320px-Panorama_of_Trevi_fountain_2015.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Panorama_of_Trevi_fountain_2015.jpg/1280px-Panorama_of_Trevi_fountain_2015.jpg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: 'The Trevi Fountain (Italian: Fontana di Trevi) is a fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini and several others. Standing 26.3 metres (86 ft) high and 49.15 metres (161.3 ft) wide,[1] it is the largest Baroque fountain in the city and one of the most famous fountains in the world.',
+        ru: `Фонтаан Треви — самый крупный фонтан Рима, вместе с фасадом здания, являющимся частью архитектурно-скульптурной композиции, имеет высоту 25,9 м и ширину 49,8 м.
+        Фонтан построен в 1732—1762 годах по проекту архитектора Николо Сальви. Он примыкает к фасаду Палаццо Поли. Архитектурно-скульптурная композиция позднего римского барокко с элементами неоклассицизма. Название происходит от латинского «trivium» (пересечение трёх дорог). Фонтан расположен в центральной части Рима, у западного склона Квиринальского холма.`,
+        pl: `Fontanna di Trevi (wł. Fontana di Trevi) – najbardziej znana barokowa fontanna w Rzymie, w rione Trevi (R. II). Została zbudowana z inicjatywy Klemensa XII w miejscu istniejącej wcześniej fontanny zaprojektowanej przez Leona Battiste Albertiego z 1435 r. Zasila ją woda doprowadzona akweduktem zbudowanym w 19 r. p.n.e. przez Agrypę, tym samym, który zasila fontannę Barcaccia znajdującą się u podnóża Schodów Hiszpańskich.`,
       },
     },
   ],
   description: {
-    en: '',
-    ru: '',
-    pl: '',
+    en: 'Italy is an amazing country where history and modernity, different eras and rich cultural heritage, traditions and identity are intertwined. The ancient monuments of Rome, the charming romance of Venice, the hilly panorama of Tuscany, the southern slopes of the Alps, the wonderful nature, the sun, the sea, the air-all this is Italy! Having a unique geographical location in the central part of the Mediterranean, it became the cradle of European civilization. Here, in the Apennines, the ancient Roman Empire was born, which gave the world famous scientists, talented artists and the largest number of attractions that made up the golden fund of the UNESCO World Heritage Site.',
+    ru: `Ита́лия — государство в Южной Европе, в центре Средиземноморья. Входит в Евросоюз и НАТО с момента их создания, является третьей по величине экономикой еврозоны.
+    Граничит с Францией на северо-западе (протяжённость границы — 488 км), Швейцарией (740 км) и Австрией (430 км) — на севере, Словенией — на северо-востоке (232 км).
+    Внутри территории Италии находятся два государства-анклава: государство Сан-Марино и расположенное внутри территории Рима ассоциированное с Италией государство Ватикан, с каждым из которых Италия имеет внутреннюю границу протяжённостью соответственно 39 км и 3,2 км.
+    Занимает Апеннинский полуостров, крайний северо-запад Балканского полуострова, Паданскую равнину, южные склоны Альп, острова Сицилия, Сардиния и ряд мелких островов.
+    На территории Италии находится 55 памятников Всемирного наследия ЮНЕСКО — Италия разделяет с Китаем первое место по их количеству`,
+    pl: `Włochy to niesamowity kraj, w którym przeplatają się historia i nowoczesność, różne epoki i bogate dziedzictwo kulturowe, tradycje i tożsamość. Zabytki starożytności Rzymu, fascynujący Romans Wenecji, pagórkowata Panorama Toskanii, południowe stoki Alp, cudowna przyroda, słońce, morze, powietrze – to wszystko Włochy! Dzięki unikalnemu położeniu geograficznemu w środkowej części Morza Śródziemnego stała się kolebką cywilizacji europejskiej. Tutaj, w Apeninach, powstało starożytne imperium rzymskie, które dało światu słynnych naukowców, utalentowanych artystów i największą liczbę zabytków, które stanowiły złoty fundusz Światowego Dziedzictwa UNESCO.`,
   },
-  currencyCode: '',
+  currencyCode: 'EUR',
   location: {
-    lat: '',
-    long: '',
+    lat: '41.8961',
+    long: '12.5',
   },
-  timezone: 'Europe/Rome', // not sure
-  video: "",
-  alfa3Code: '',
+  timezone: 'Europe/Rome', 
+  video: "https://www.youtube.com/watch?v=jLgcah7bpl4",
+  alfa3Code: 'ITA',
 }
 const Austria = {
   name: {
-    en: "",
-    ru: "",
+    en: "Austria",
+    ru: "Австрия",
     pl: "",
   },
   image: {
     alt: {
-      en: '',
-      ru: '',
-      pl: '',
+      en: 'Vienna, Austria',
+      ru: 'Вена, Австрия',
+      pl: 'Wiedeń, Austria',
     },
-    thumbnail: '',
-    mainImage: '',
+    thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MUSA_Vienna_South_view_DSC_10153w.jpg/320px-MUSA_Vienna_South_view_DSC_10153w.jpg',
+    mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MUSA_Vienna_South_view_DSC_10153w.jpg/1280px-MUSA_Vienna_South_view_DSC_10153w.jpg',
     },
   galleryImages: [
     {
       alt: {
-        en:'',
-        ru:'',
-        pl: '',
+        en:'The Vienna State Opera',
+        ru:'Венская государственная опера',
+        pl: 'Opera Wiedeńska',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Vienna_Opera.jpg/320px-Vienna_Opera.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Vienna_Opera.jpg/1280px-Vienna_Opera.jpg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `The Vienna State Opera is an opera house and opera company based in Vienna, Austria. The 1,709-seat Renaissance Revival venue was the first major building on the Vienna Ring Road. It was built from 1861 to 1869 following plans by August Sicard von Sicardsburg and Eduard van der Nüll, and designs by Josef Hlávka. The opera house was inaugurated as the "Vienna Court Opera" (Wiener Hofoper) in the presence of Emperor Franz Joseph I and Empress Elisabeth of Austria. It became known by its current name after the establishment of the First Austrian Republic in 1921. The Vienna State Opera is the successor of the Vienna Court Opera, the original construction site chosen and paid for by Emperor Franz Joseph in 1861.`,
+        ru: 'Венская государственная опера — крупнейший оперный театр в Австрии, центр музыкальной культуры. Венская опера известна не только в Австрии и Европе. На каждом представлении в зрительном зале можно встретить туристов со всего света от Японии до США и Канады. Попасть на спектакль в Венскую оперу мечтают и заядлые театралы России.',
+        pl: `Wiedeńska Opera Państwowa – opera znajdująca się w Wiedniu.
+        Gmach ten był pierwszym ukończonym budynkiem przy Ringu. 25 maja 1869 wystawienie opery „Don Giovanni” Mozarta rozpoczęło działalność sceny operowej. Gmach, w stylu neorenesansowym, spotkał się początkowo z nieprzychylną reakcją wiedeńczyków. Podobno fakt ten uznaje się za przyczynę popełnienia samobójstwa przez jednego z architektów budynku Eduarda van der Nülla. Jednakże zniszczenie tego budynku w wyniku bombardowań w 1945 roku uznano za symboliczny cios zadany miastu. 5 listopada 1955 wystawienie „Fidelia” Beethovena zainaugurowało powojenną działalność Opery, która zyskała całkowicie nową widownię oraz scenę wyposażoną w najnowocześniejsze rozwiązania techniczne.`,
       },
     },
     {
       alt: {
-        en:'',
-        ru: '',
-        pl: '',
+        en:'Hofburg',
+        ru: 'Хофбург',
+        pl: 'Hofburg',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Neue_Burg%2C_Hofburg%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_25.jpg/320px-Neue_Burg%2C_Hofburg%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_25.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Neue_Burg%2C_Hofburg%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_25.jpg/1280px-Neue_Burg%2C_Hofburg%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_25.jpg',
       description: {
-        en: "",
-        ru: '',
-        pl: '',
+        en: `The Hofburg is the official residence and workplace of the President of Austria and was formerly the principal imperial palace of the Habsburg dynasty. Located in the center of Vienna, it was built in the 13th century and expanded several times afterwards. It also served as the imperial winter residence, as Schönbrunn Palace was the summer residence.`,
+        ru: `Хо́фбург (также Го́фбург, нем. Hofburg) — зимняя резиденция австрийских Габсбургов и основное местопребывание императорского двора в Вене. Всего в ней 2600 залов и комнат. Некоторые из помещений используются как официальная резиденция президента Австрии.`,
+        pl: 'Hofburg – wiedeńska rezydencja władców Austrii od XIII wieku poczynając od Rudolfa I Habsburga aż do 1918 roku w czasach panowania Karola I. Przez cały ten czas pałac był rozbudowywany i przebudowywany przez kolejnych władców.',
       },
     },
     {
       alt: {
-        en: '',
-        ru:'',
-        pl: '',
+        en: 'Ambras Castle',
+        ru:'Замок Амбрас',
+        pl: 'Zamek Ambras',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Panorama_ambrass2.jpg/320px-Panorama_ambrass2.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Panorama_ambrass2.jpg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `Ambras Castle (German: Schloss Ambras Innsbruck) is a Renaissance castle and palace located in the hills above Innsbruck, Austria. Ambras Castle is 587 metres (1,926 ft) above sea level. Considered one of the most popular tourist attractions of the Tyrol, Ambras Castle was built in the 16th century on the spot of an earlier 10th-century castle, which became the seat of power for the Counts of Andechs. The cultural and historical importance of the castle is closely connected with Archduke Ferdinand II (1529–1595) and served as his family residence from 1567 to 1595.[2] Ferdinand was one of history's most prominent collectors of art. The princely sovereign of Tyrol, son of Emperor Ferdinand I, ordered that the medieval fortress at Ambras be turned into a Renaissance castle as a gift for his wife Philippine Welser. The cultured humanist from the House of Habsburg accommodated his world-famous collections in a museum: The collections, still in the Lower Castle built specifically for that museum purpose, make Castle Ambras Innsbruck one the oldest museums in the world.`,
+        ru: `Замок Амбрас (нем. Schloss Ambras) — замок-музей в Инсбруке, Австрия. Является одной из основных достопримечательностей города. Её культурно-историческое значение тесно связано с эрцгерцогом Фердинандом II.
+        Постройка замка восходит к временам Фердинанда II, второго сына императора Фердинанда I. Когда эрцгерцог в 1563 году стал сувереном провинции Тироль, он нанял итальянских архитекторов для перестройки средневековой крепости в ренессансный замок.`,
+        pl: 'Zamek Ambras znajduje się w Innsbrucku na wysokości 635 m na południowo-wschodniej granicy miasta, w bezpośrednim sąsiedztwie wsi Amras, włączonej w 1938 r. do miasta.',
       },
     },
     {
       alt: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: 'Melk Abbey',
+        ru: 'Аббатство Мельк',
+        pl: 'Opactwo Benedyktynów w Melku',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Stift_Melk%2C_Westansicht.jpg/320px-Stift_Melk%2C_Westansicht.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Stift_Melk%2C_Westansicht.jpg/1280px-Stift_Melk%2C_Westansicht.jpg',
       description: {
-        en: "",
-        ru: '',
-        pl: '',
+        en: `Melk Abbey (German: Stift Melk) is a Benedictine abbey above the town of Melk, Lower Austria, Austria, on a rocky outcrop overlooking the Danube river, adjoining the Wachau valley. The abbey contains the tomb of Saint Coloman of Stockerau and the remains of several members of the House of Babenberg, Austria's first ruling dynasty.`,
+        ru: `Бенедиктинский монастырь в Мельке (нем. Stift Melk) расположен в земле Нижняя Австрия рядом с городом Мельком на скалистом правом берегу Дуная в долине Вахау. Барочный ансамбль монастыря, созданный в 1702-1746 годах известным австрийским зодчим Якобом Прандтауером (нем. Jakob Prandtauer), в 2000 году был включён в список объектов Всемирного наследия ЮНЕСКО. В монастыре действует основанная ещё до 1140 года гимназия, одна из старейших школ Австрии.`,
+        pl: 'Opactwo Benedyktynów w Melku – kompleks budynków opactwa zakonu benedyktynów, położony w Melku w Austrii.',
       },
     },
     {
       alt: {
-        en: '',
-        ru:'',
-        pl: '',
+        en: 'Vienna City Hall',
+        ru:'Венская ратуша',
+        pl: 'Ratusz w Wiedniu',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Wien_Rathaus_hochaufl%C3%B6send.jpg/320px-Wien_Rathaus_hochaufl%C3%B6send.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Wien_Rathaus_hochaufl%C3%B6send.jpg/1280px-Wien_Rathaus_hochaufl%C3%B6send.jpg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `Vienna City Hall (German: Wiener Rathaus) is the seat of local government of Vienna, located on Rathausplatz in the Innere Stadt district. Constructed from 1872 to 1883 in a Neo-Gothic style according to plans designed by Friedrich von Schmidt, it houses the office of the Mayor of Vienna as well as the chambers of the city council and Vienna Landtag diet.`,
+        ru: `Венская ратуша (нем. Wiener Rathaus) расположена на площади Фридриха Шмидта (нем. Friedrich-Schmidt-Platz) в 1-м округе (Внутренний Город). Здание было построено в 1872—1883 гг. по проекту архитектора Фридриха Шмидта. Здесь находятся служебные помещения бургомистра города и муниципалитета. В ратуше проходят также заседания ландтага.`,
+        pl: `Ratusz w Wiedniu (niem. Wiener Rathaus) – budynek, od początku istnienia pełniący funkcję użyteczności publicznej, mieści w swych murach zarząd miasta. Obecnie swą siedzibę w ratuszu ma zarówno burmistrz jak i rada miejska Wiednia; jednocześnie jest to siedziba kraju związkowego Austrii, jakim jest Wiedeń.
+
+        Ten wiedeński budynek w stylu neogotyckim, zaprojektowany został przez Friedricha von Schmidta. Jego budowa miała miejsce w latach 1872–1883. Przed ratuszem rozciąga się plac ratuszowy, wzdłuż którego umiejscowione są posągi zasłużonych dla miasta osobistości. Fasada ratusza zwrócona jest ku Ringstrasse. Nad całością budowli górują dwie potężne wieże, na szczycie jednej z nich znajduje się posąg Rathausmann.`,
       },
     },
     {
       alt: {
-        en: '',
-        ru:'',
-        pl: '',
+        en: 'Schönbrunn Palace',
+        ru:'Шёнбрунн',
+        pl: 'Pałac Schönbrunn',
       },
-      thumbnail: '',
-      mainImage: '',
+      thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ch%C3%A2teau_de_Sch%C3%B6nbrunn_Vienne.jpg/320px-Ch%C3%A2teau_de_Sch%C3%B6nbrunn_Vienne.jpg',
+      mainImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ch%C3%A2teau_de_Sch%C3%B6nbrunn_Vienne.jpg/1280px-Ch%C3%A2teau_de_Sch%C3%B6nbrunn_Vienne.jpg',
       description: {
-        en: '',
-        ru: '',
-        pl: '',
+        en: `Schönbrunn Palace (German: Schloss Schönbrunn [ʃøːnˈbʁʊn]; Central Bavarian: Schloss Scheenbrunn) was the main summer residence of the Habsburg rulers, located in Hietzing, Vienna. The name Schönbrunn (meaning “beautiful spring”) has its roots in an artesian well from which water was consumed by the court.
+
+        The 1,441-room Rococo palace is one of the most important architectural, cultural, and historic monuments in the country. The history of the palace and its vast gardens spans over 300 years, reflecting the changing tastes, interests, and aspirations of successive Habsburg monarchs. It has been a major tourist attraction since the mid-1950s.`,
+        ru: `Шёнбрунн (нем. Schloß Schönbrunn) — основная летняя резиденция австрийских императоров династии Габсбургов, одна из крупнейших построек австрийского барокко (архитектор — Иоганн Бернхард Фишер фон Эрлах). Расположен в западной части Вены, в 5 км от центра города, в районе Хитцинг. Один из самых красивых дворцово-парковых ансамблей Европы.
+        В декабре 1996 года на 20-й сессии Комитета всемирного наследия Шёнбрунн был включён в список объектов всемирного наследия ЮНЕСКО. В список были включены дворец и парк с его многочисленными фонтанами и статуями, глориеттой и псевдоримскими развалинами, а также Шёнбруннский зоопарк — самый старый в мире.`,
+        pl: `Pałac Schönbrunn (niem. Schloss Schönbrunn) – pałac zbudowany w XVII–XVIII w. na zlecenie cesarza Leopolda I, zaprojektowany przez Johanna Bernharda Fischera von Erlacha. Znajduje się w 13. dzielnicy Wiednia, Hietzingu. W 1996 pałac został wpisany na listę światowego dziedzictwa UNESCO.`,
       },
     },
   ],
   description: {
-    en: '',
-    ru: '',
-    pl: '',
+    en: `Austria is located in the center of Europe, snatching a decent part of the Eastern Alps with their fabulous valleys, mystical pine thickets and thousand-year-old glaciers. Usually, this ultra-compact, but generous country attracts three things-the charming atmosphere of imperial Vienna, glossy ski resorts and the opportunity to treat yourself to Austrian gastro-delights, among which a special place is occupied by confectionery masterpieces. In addition, there are several "additional" destinations, where thousands of tourists are dispersed every season. Among them are the vineyards of the Weinfirtel, thermal resorts, as well as the incredible purity and transparency of the lake, a vacation on which promises a high-quality emotional reboot and stunning photo shoots against the backdrop of Alpine sunsets. Administratively, Austria is divided into 9 federal states, each of which offers its own original attractions and popular travel locations. Affluent skiers and snowboarders consistently besiege Central Tyrol with its ideal ski space and premium après-ski. The capital of the region – Innsbruck is also a neskuchny corner, which managed to host the Olympic Games twice and accumulate a decent number of architectural monuments, among which the ancient temples stand out.
+    Those who are shocked by the prices of Tyrolean ski passes, run around the ski slopes of Salzburg. This is the name not only of the city, but also of an independent federal land. The history of the region, as well as its administrative center, is impressive, so those who like to wander through the gloomy castles and palace chambers will definitely like it here. And Salzburg is also a great museum, an Alpine zoo and an unforgettable Mozart. By the way, the musical genius created mainly in Vienna, which does not prevent his enterprising countrymen from naming everything after the composer, including spherical candies.
+    Adjacent to Salzburg from the north, Carinthia is a mountain-lake region, where cultural festivals do not cease in the summer and sometimes it is crowded with tourists swimming, sunbathing and climbing on wooded spurs. Healing mineral and thermal springs, surrounded by quiet resort towns, add to the attractiveness of the region. Taking a break from the Alpine scenery is best in Burgenland. This federal land almost did not get mountain peaks, but this fact did not affect the image of the region. Instead of the Alps, Burgenland is well advertised for its vineyards, wineries and multiculturalism-the land borders on Hungary, of which it used to be a part.
+    Another historical "winery" of Austria and its greenest region is Styria. It is worth a dash here because of the untouched nature reserves, thermal resorts and an incredible number of ancient fortresses, castles and monasteries. In the capital of the region – Graz-it is worth stopping to walk around the UNESCO-protected Old Town and visit the jazz festival. In search of medieval abbeys, infernal caves and balneological complexes, go to Upper Austria and its administrative center – Linz. In addition to the instagram-inspired spa tour, you can also organize a romantic weekend on the Salzkammergut Lakes.
+    The good old Museum Vienna is a route that never loses its relevance for everyone who wants to turn back the clock and breathe the air of Old Europe. Opera houses, charming coffee shops of the XIX century, dazzling palaces reminiscent of the era of Habsburg grandeur and spendthrift, as well as hundreds of equally memorable places are welcome to foreign guests, regardless of the season.`,
+    ru: `Австрия расположилась в центре Европы, отхватив себе приличную часть Восточных Альп с их сказочными долинами, мистическими сосновыми чащами и тысячелетними ледниками. Обычно эта ультракомпактная, но щедрая на впечатления страна притягивает тремя вещами – чарующей атмосферой имперской Вены, глянцевыми горнолыжными курортами и возможностью побаловать себя австрийскими гастро-изысками, среди которых особое место занимают кондитерские шедевры. Кроме того, существует несколько «добавочных» направлений, по которым ежесезонно рассредотачиваются тысячи туристов. Среди них – виноградники Вайнфиртеля, термальные курорты, а также невероятной чистоты и прозрачности озера, отпуск на которых обещает качественную эмоциональную перезагрузку и потрясающие фотосессии на фоне альпийских закатов. Административно Австрия делится на 9 федеральных земель, каждая из которых предлагает свои оригинальные достопримечательности и популярные тревел-локации. Обеспеченные лыжники и сноубордисты стабильно осаждают Центральный Тироль с его идеальным горнолыжным пространством и премиальным апре-ски. Столица региона – Инсбрук тоже нескучный уголок, успевший дважды принять Олимпийские игры и накопить приличное количество архитектурных памятников, среди которых особенно выделяются старинные храмы.
+    Те, кого шокируют цены на тирольские ски-пассы, обкатывают горнолыжные трассы Зальцбурга. Так называется не только город, но и самостоятельная федеральная земля. История у региона, как и у его административного центра, внушительная, поэтому любителям побродить по мрачноватым замкам и дворцовым покоям здесь определенно понравится. А еще Зальцбург – это великолепные музеи, альпийский зоопарк и незабвенный Моцарт. Кстати, творил музыкальный гений, в основном, в Вене, что не мешает его предприимчивым землякам называть именем композитора все подряд, включая шарообразные конфеты.
+    Примыкающая к Зальцбургу с севера Каринтия – горно-озерный край, где летом не утихают культурные фестивали и иногда бывает тесновато от купающихся, загорающих и карабкающихся по лесистым отрогам туристов. Добавляют привлекательности области целебные минеральные и термальные источники, окруженные тихими курортными городами. Взять тайм-аут, чтобы отдохнуть от альпийских пейзажей лучше всего в Бургенланде. Этой федеральной земле практически не досталось горных вершин, но на имидже региона данный факт не сказался. Вместо Альп Бургенланд неплохо рекламируют виноградники, винодельни и витающая в воздухе мультикультурность – земля граничит с Венгрией, частью которой была раньше.
+    Еще одна историческая «винодельня» Австрии и ее самая зеленая область – Штирия. Рвануть сюда стоит из-за нетронутых заповедников, термальных курортов и невероятного количества древних крепостей, замков и монастырей. В столице региона – Граце – стоит задержаться, чтобы погулять по охраняемому ЮНЕСКО Старому городу и побывать на джазовом фестивале. На поиски средневековых аббатств, инфернальных пещер и бальнеологических комплексов отправляйтесь в Верхнюю Австрию и ее административный центр – Линц. Помимо инстаграмно-пафосного спа-тура, здесь можно организовать романтический уик-энд на озерах Зальцкаммергута.
+    Старая добрая музейная Вена – это не теряющий актуальности маршрут для всех, кто мечтает повернуть время вспять и подышать воздухом Старой Европы. Оперные театры, очаровательные кофейни XIX века, ослепительные дворцы, напоминающие об эпохе габсбургского величия и транжирства, а также сотни не менее запоминающихся мест рады иностранным гостям вне зависимости от сезона.`,
+    pl: `Austria znajduje się w Centrum Europy, zabierając sobie przyzwoitą część Alp Wschodnich z ich bajecznymi dolinami, mistycznymi zaroślami sosny i tysiącletnimi lodowcami. Zwykle ten ultrakompaktowy, ale hojny dla wrażeń kraj przyciąga trzema rzeczami – czarującą atmosferą cesarskiego Wiednia, błyszczącymi ośrodkami narciarskimi i okazją do rozpieszczania austriackich przysmaków gastronomicznych, wśród których szczególne miejsce zajmują arcydzieła cukiernicze. Ponadto istnieje kilka" dodatkowych " miejsc, w których tysiące turystów rozpraszają się co sezon. Wśród nich są winnice Weinviertel, termalne kurorty, a także niesamowita czystość i przejrzystość jeziora, na których wakacje obiecują wysokiej jakości emocjonalny restart i wspaniałe sesje zdjęciowe na tle alpejskich zachodów słońca. Administracyjnie Austria jest podzielona na 9 krajów związkowych, z których każda oferuje własne oryginalne zabytki i popularne lokalizacje podróży. Zamożni narciarze i snowboardziści stale oblegają Centralny Tyrol dzięki doskonałej przestrzeni narciarskiej i najwyższej klasy Après-Ski. Stolica regionu-Innsbruck jest również nudnym zakątkiem, który dwukrotnie gościł Igrzyska Olimpijskie i zgromadził przyzwoitą liczbę zabytków architektonicznych, wśród których szczególnie wyróżniają się starożytne świątynie.
+    Ci, którzy są zszokowani cenami tyrolskich karnetów narciarskich, jeżdżą na stokach narciarskich w Salzburgu. Tak nazywa się nie tylko miasto, ale także niezależna Ziemia Federalna. Historia regionu, podobnie jak jego centrum administracyjne, jest imponująca, więc miłośnicy wędrowania po ponurych zamkach i komnatach pałacowych z pewnością pokochają to tutaj. Salzburg to wspaniałe muzea, Alpejskie zoo i niezapomniany Mozart. Nawiasem mówiąc, geniusz muzyczny stworzył głównie w Wiedniu, co nie powstrzymuje jego przedsiębiorczych rodaków od nazywania imienia kompozytora wszystkim, w tym kulistymi cukierkami.
+    Karyntia, sąsiadująca z Salzburgiem od północy, jest górzystym jeziorem, w którym festiwale kulturalne nie ustępują latem, a czasami jest ciasno od turystów pływających, opalających się i wspinających się po zalesionych ostrogach. Atrakcyjność regionu dodają lecznicze źródła mineralne i termalne otoczone spokojnymi miejscowościami uzdrowiskowymi. Poświęć trochę czasu na przerwę od alpejskich krajobrazów najlepiej w Burgenland. Ta ziemia Federalna praktycznie nie dostała szczytów górskich, ale fakt ten nie wpłynął na wizerunek regionu. Zamiast Alp Burgenland dobrze reklamują winnice, winnice i unoszącą się w powietrzu wielokulturowość – Kraina graniczy z Węgrami, których część była wcześniej.
+    Kolejną historyczną" winnicą " Austrii i jej najbardziej zielonym obszarem jest Styria. Warto tu pędzić ze względu na Dziewicze rezerwaty przyrody, termalne kurorty i niesamowitą liczbę starożytnych fortec, zamków i klasztorów. W stolicy regionu-Grazu - warto zatrzymać się na spacer po chronionym przez UNESCO Starym Mieście i odwiedzić festiwal jazzowy. W poszukiwaniu średniowiecznych opactw, jaskiń infernalnych i kompleksów balneologicznych udaj się do Górnej Austrii i jej centrum administracyjnego – Linz. Oprócz instagramowej wycieczki po Spa, można tu zorganizować romantyczny weekend nad jeziorami Salzkammergut.
+    Stary dobry Wiedeń muzealny to nie tracąca znaczenia trasa dla każdego, kto marzy o cofnięciu czasu i zaczerpnięciu powietrza ze starej Europy. Teatry operowe, urocze kawiarnie z XIX wieku, olśniewające pałace przypominające erę habsburskiej wielkości i tranzycji, a także setki równie niezapomnianych miejsc są mile widziane dla zagranicznych gości bez względu na porę roku.`,
   },
-  currencyCode: '',
+  currencyCode: 'EUR',
   location: {
-    lat: '',
-    long: '',
+    lat: '48.2097',
+    long: '16.3734',
   },
-  timezone: 'Europe/Vienna', // not sure
-  video: "",
-  alfa3Code: '',
+  timezone: 'Europe/Vienna', 
+  video: "https://www.youtube.com/watch?v=duNTbGFEib8",
+  alfa3Code: 'AUT',
 }
 
